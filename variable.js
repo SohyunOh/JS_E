@@ -65,5 +65,15 @@ const brendan = 'brendan';
 const greetiong = 'hello ' + brendan ;
 console.log (`value: ${greetiong} , type: ${typeof greetiong}`) 
 const helloBob = `hi ${brendan}!`; // template literals (string) => 백티를 이용 `` 
-console.log (`value: ${helloBob} , type: ${typeof helloBob}`)
-console.log ('value: '+ helloBob + ' type: ' + typeof helloBob);
+console.log (`value: ${helloBob} , type: ${typeof helloBob}`)  // template literals (string) 사용
+console.log ('value: '+ helloBob + ' type: ' + typeof helloBob); // template literals (string) 사용 안한 경우 
+
+// 7. boolean
+// false: 0, null, undefiend, NAN , ''
+// true : any other value
+const canRead = true ;
+const test = 3 <1; // false
+console.log (`value: ${canRead} type: ${typeof canRead}`);
+console.log (`value: ${test}, type : ${typeof test}`);
+
+
